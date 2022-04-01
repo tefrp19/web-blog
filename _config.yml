@@ -103,7 +103,6 @@ theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-# 执行 hexo deploy 会将本地的
 deploy:
   type: git
   repository: tefrp@1.116.110.64:/home/tefrp/blog.git    #用户名@服务器Ip:git仓库位置
