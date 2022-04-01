@@ -1,0 +1,13 @@
+#footer-wrap
+  if theme.footer.owner.enable
+    - var now = new Date()
+    - var nowYear = now.getFullYear()
+    if theme.footer.owner.since && theme.footer.owner.since != nowYear
+      .copyright!= `&copy;${theme.footer.owner.since} - ${nowYear} By ${config.author}`
+    else
+      .copyright!= `&copy;${nowYear} By ${config.author}`
+  if theme.footer.copyright
+    .framework-info
+      <a href="https://beian.miit.gov.cn"  target="_blank"><img src="https://tefrp-1307735425.cos.ap-chengdu.myqcloud.com/%E5%8D%9A%E5%AE%A2/%E5%A4%87%E6%A1%88logo.png">蜀ICP备2021026655号-1</a>
+  if theme.footer.custom_text
+    .footer_custom_text!=`${theme.footer.custom_text}`
