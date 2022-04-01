@@ -1,8 +1,14 @@
 # web-blog
+
+
 使用hexo+腾讯云云服务器搭建个人博客网站
 
-[预览地址](https://tefrp.cn)
+博客网站地址：[**https://tefrp.cn**](https://tefrp.cn)
 
-1. `git clone git@github.com:tefrp19/web-blog.git`克隆项目
-2. `npm install`安装依赖
-3. `hexo server` 在本地启动一个服务器
+准备还是把个人博客网站渐渐搭起来、维护起来（github），搞个技术、健身、哲学模块
+
+技术模块：技术文章for面试
+
+健身模块：写自己从小白到入门的一点心得，分享自己的经历，为后人（程序员）提供一点健身思路
+
+哲学模块：瞎写
